@@ -7,7 +7,7 @@ Erma::Application.routes.draw do
   get "gallery/work4"
   get "home/show"
   get "welcome/show"
-  get "/" => 'welcome/show'
+  get "/" => 'welcome#show'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
