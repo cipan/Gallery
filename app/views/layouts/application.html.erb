@@ -11,6 +11,13 @@
 <%= csrf_meta_tags %>
 </head>
 <body>
+	<script type='text/javascript'>
+	    $(document).ready(function() {
+	         $('.carousel').carousel({
+	             interval: 2000
+	         })
+	    });    
+	</script>
  <%= yield %>
   </body>
 </html>
